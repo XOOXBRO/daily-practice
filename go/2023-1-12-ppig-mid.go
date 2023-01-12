@@ -41,7 +41,7 @@ func evaluate(s string, knowledge [][]string) string {
 	return s
 }
 
-// Plan2, use res to save string,so it decrease the generator of string,it's more fast.
+// Plan2, use res to save string,so it decrease generate of string,it's more fast.
 // Time feat 47.62%. Memory feat 100%.
 func evaluate2(s string, knowledge [][]string) string {
 	// 将 knowledge 转为 map 存储
