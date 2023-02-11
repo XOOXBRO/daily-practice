@@ -54,13 +54,9 @@ func fillCups(amount []int) int {
 		if amount[s] > amount[2] {
 			s = 2
 		}
-		if amount[b] != 0 {
-			amount[b] -= 1
-		}
-		if amount[s] != 0 {
-			amount[s] -= 1
-		}
 
+		amount[b] -= 1
+		amount[s] -= 1
 		res++
 	}
 	return res
