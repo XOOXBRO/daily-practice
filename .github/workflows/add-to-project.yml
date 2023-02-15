@@ -3,7 +3,10 @@ name: Add pr to daily-practice
 on:
   pull_request:
     types:
-      - opened
+      - labeled
+  schedule:
+    interval: "daily"
+  workflow_dispatch:
 
 jobs:
   add-to-project:
