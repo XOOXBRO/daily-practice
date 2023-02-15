@@ -1,0 +1,19 @@
+name: Add pr to daily-practice
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add pr to daily-practice
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@RELEASE_VERSION
+        with:
+          # You can target a repository in a different organization
+          # to the issue
+          project-url: https://github.com/XOOXBRO/daily-practice
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: Stale
