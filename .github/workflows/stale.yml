@@ -22,7 +22,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           stale-issue-message: 'Issue 长时间无进度，即将自动关闭'
-          stale-pr-message: 'Pull Request 长时间无进度,即将自动关闭'
+          stale-pr-message: 'Pull Request 长时间无进度,即将自动合并'
           stale-issue-label: 'Stale'
           stale-pr-label: 'Stale'
           days-before-stale: 5

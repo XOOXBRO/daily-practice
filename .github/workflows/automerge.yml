@@ -25,3 +25,4 @@ jobs:
           MERGE_LABELS: "Stale"
           MERGE_REMOVE_LABELS: "Stale"
           MERGE_METHOD: "squash"
+          MERGE_DELETE_BRANCH: "true"
