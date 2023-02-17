@@ -25,5 +25,5 @@ jobs:
           stale-pr-message: 'Pull Request 长时间无进度,即将自动合并'
           stale-issue-label: 'Stale'
           stale-pr-label: 'Stale'
-          days-before-stale: 5
-          days-before-close: 9
+          days-before-stale: 3
+          days-before-close: 5
