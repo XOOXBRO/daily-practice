@@ -6,11 +6,11 @@ package main
 See https://leetcode.cn/problems/binary-tree-postorder-traversal/description/ for more details
 */
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+//type TreeNode struct {
+//	Val   int
+//	Left  *TreeNode
+//	Right *TreeNode
+//}
 
 func postorderTraversal(root *TreeNode) []int {
 	var res []int
