@@ -17,6 +17,7 @@ eg1:
 See https://leetcode.cn/problems/li-wu-de-zui-da-jie-zhi-lcof/description/ for more details
 */
 
+/*
 func maxValue(grid [][]int) int {
 	dp := make([][]int, len(grid))
 	for i := 0; i < len(dp); i++ {
@@ -49,3 +50,4 @@ func maxValue(grid [][]int) int {
 
 	return dp[len(grid)-1][len(grid[0])-1]
 }
+*/

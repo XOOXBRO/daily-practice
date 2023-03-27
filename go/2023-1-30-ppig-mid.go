@@ -4,12 +4,15 @@ package main
  * Definition for singly-linked list.
  */
 
+/*
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
+*/
 
 // See https://leetcode.cn/problems/merge-in-between-linked-lists/description/ for more details
+/*
 func mergeInBetween(list1 *ListNode, a int, b int, list2 *ListNode) *ListNode {
 	var (
 		head = list1
@@ -38,6 +41,7 @@ func mergeInBetween(list1 *ListNode, a int, b int, list2 *ListNode) *ListNode {
 
 	return head
 }
+*/
 
 /*
 	简单模拟即可

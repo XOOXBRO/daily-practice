@@ -9,6 +9,7 @@ package main
 See https://leetcode.cn/problems/minimum-amount-of-time-to-fill-cups/ for more details
 */
 
+/*
 func fillCups(amount []int) int {
 	var res int
 
@@ -61,6 +62,7 @@ func fillCups(amount []int) int {
 	}
 	return res
 }
+*/
 
 /*
 想法:

@@ -1,9 +1,5 @@
 package main
 
-import (
-	"sort"
-)
-
 /*
 给你一个非负整数数组 nums 。在一步操作中，你必须：
 
@@ -26,6 +22,8 @@ eg02:
 
 See https://leetcode.cn/problems/make-array-zero-by-subtracting-equal-amounts/ for more details
 */
+
+/*
 func minimumOperations(nums []int) int {
 	if len(nums) == 1 {
 		if nums[0] == 0 {
@@ -48,3 +46,4 @@ func minimumOperations(nums []int) int {
 	}
 	return res
 }
+*/

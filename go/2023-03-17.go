@@ -1,6 +1,6 @@
 package main
 
-import "sort"
+//import "sort"
 
 /*
 
@@ -21,6 +21,7 @@ eg:
 See https://leetcode.cn/problems/longest-subsequence-with-limited-sum/ for more details
 */
 
+/*
 func answerQueries(nums []int, queries []int) []int {
 	var (
 		answer = make([]int, 0, len(queries))
@@ -44,3 +45,4 @@ func answerQueries(nums []int, queries []int) []int {
 
 	return answer
 }
+*/

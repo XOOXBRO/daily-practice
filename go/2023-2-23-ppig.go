@@ -21,6 +21,8 @@ eg2:
 
 See https://leetcode.cn/problems/circular-permutation-in-binary-representation/ for more details
 */
+
+/*
 func circularPermutation(n int, start int) []int {
 	g := make([]int, 1<<n)
 	j := 0
@@ -32,6 +34,7 @@ func circularPermutation(n int, start int) []int {
 	}
 	return append(g[j:], g[:j]...)
 }
+*/
 
 /*
 格雷码

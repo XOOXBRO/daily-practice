@@ -1,10 +1,5 @@
 package main
 
-import (
-	"sort"
-	"strings"
-)
-
 /*
 你是一位系统管理员，手里有一份文件夹列表 folder，你的任务是要删除该列表中的所有 子文件夹，并以 任意顺序 返回剩下的文件夹。
 
@@ -16,6 +11,7 @@ import (
 
 */
 
+/*
 func removeSubfolders(folder []string) []string {
 	sort.Strings(folder)
 	var res []string
@@ -29,3 +25,4 @@ func removeSubfolders(folder []string) []string {
 	}
 	return res
 }
+*/

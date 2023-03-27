@@ -10,6 +10,7 @@ package main
 See https://leetcode.cn/problems/check-if-matrix-is-x-matrix/ for more details
 */
 
+/*
 func checkXMatrix(grid [][]int) bool {
 	for i, row := range grid {
 		for j, v := range row {
@@ -24,3 +25,4 @@ func checkXMatrix(grid [][]int) bool {
 	}
 	return true
 }
+*/

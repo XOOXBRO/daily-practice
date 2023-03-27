@@ -2,6 +2,7 @@ package main
 
 // Plan1: mock ,but exist string.split,it's slow.
 // Time feat 9.52%. Memory feat 19.5%.
+/*
 func evaluate(s string, knowledge [][]string) string {
 	// 将 knowledge 转为 map 存储
 	kr := make(map[string]string, len(knowledge))
@@ -41,6 +42,7 @@ func evaluate(s string, knowledge [][]string) string {
 	return s
 }
 
+
 // Plan2, use res to save string,so it decrease generate of string,it's more fast.
 // Time feat 47.62%. Memory feat 100%.
 func evaluate2(s string, knowledge [][]string) string {
@@ -76,3 +78,4 @@ func evaluate2(s string, knowledge [][]string) string {
 
 	return string(res)
 }
+*/

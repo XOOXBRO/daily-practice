@@ -11,6 +11,7 @@ package main
 
 See https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/ for more details
 */
+/*
 func minimumRecolors(blocks string, k int) int {
 	var (
 		res   int
@@ -36,3 +37,4 @@ func minimumRecolors(blocks string, k int) int {
 	}
 	return res
 }
+*/

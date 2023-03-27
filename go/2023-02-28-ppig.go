@@ -1,7 +1,5 @@
 package main
 
-import "sort"
-
 /*
 给你两个二维整数数组 items1 和 items2 ，表示两个物品集合。每个数组 items 有以下特质：
 
@@ -14,6 +12,7 @@ items 中每件物品的价值都是 唯一的 。
 See https://leetcode.cn/problems/merge-similar-items/ for more details
 */
 
+/*
 func mergeSimilarItems(items1 [][]int, items2 [][]int) [][]int {
 	sort.Slice(items1, func(i, j int) bool {
 		return items1[i][0] < items1[j][0]
@@ -52,3 +51,4 @@ func mergeSimilarItems(items1 [][]int, items2 [][]int) [][]int {
 	}
 	return res
 }
+*/

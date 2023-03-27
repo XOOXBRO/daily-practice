@@ -11,6 +11,8 @@ package main
 
 See https://leetcode.cn/problems/maximum-number-of-pairs-in-array/ for more details
 */
+
+/*
 func numberOfPairs(nums []int) []int {
 	answer := make([]int, 2)
 	record := make(map[int]int)
@@ -30,3 +32,4 @@ func numberOfPairs(nums []int) []int {
 	}
 	return answer
 }
+*/

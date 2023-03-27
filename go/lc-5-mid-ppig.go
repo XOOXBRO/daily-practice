@@ -1,6 +1,7 @@
 package main
 
 // See https://leetcode.cn/problems/longest-palindromic-substring/description/ for more details
+/*
 func longestPalindrome(s string) string {
 	var (
 		maxlen int
@@ -32,3 +33,4 @@ func longestPalindrome(s string) string {
 
 	return s[left : right+1]
 }
+*/

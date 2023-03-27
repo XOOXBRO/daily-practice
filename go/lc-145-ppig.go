@@ -11,7 +11,7 @@ See https://leetcode.cn/problems/binary-tree-postorder-traversal/description/ fo
 //	Left  *TreeNode
 //	Right *TreeNode
 //}
-
+/*
 func postorderTraversal(root *TreeNode) []int {
 	var res []int
 	if root == nil {
@@ -26,3 +26,6 @@ func postorderTraversal(root *TreeNode) []int {
 
 	return res
 }
+
+
+*/

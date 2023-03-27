@@ -12,6 +12,7 @@ package main
 
 See https://leetcode.cn/problems/decode-the-message/description/ for more details
 */
+/*
 func decodeMessage(key string, message string) string {
 	en := byte('a')
 	record := map[rune]byte{}
@@ -34,3 +35,4 @@ func decodeMessage(key string, message string) string {
 	}
 	return string(res)
 }
+*/

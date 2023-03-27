@@ -16,6 +16,7 @@ package main
 叶子节点 是没有孩子的节点。
 */
 
+/*
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -25,10 +26,7 @@ type TreeNode struct {
 // See https://leetcode.cn/problems/evaluate-boolean-binary-tree/description/ for more details
 func evaluateTree(root *TreeNode) bool {
 	if root.Left == nil {
-		if root.Val == 0 {
-			return false
-		}
-		return true
+		return root.Val!=0
 	}
 	l := evaluateTree(root.Left)
 	r := evaluateTree(root.Right)
@@ -56,3 +54,5 @@ func evaluateTree2(root *TreeNode) bool {
 		panic("unreachable")
 	}
 }
+
+*/

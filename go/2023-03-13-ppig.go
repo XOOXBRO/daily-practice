@@ -14,6 +14,7 @@ experience =
 See https://leetcode.cn/problems/minimum-hours-of-training-to-win-a-competition/ for more details
 */
 
+/*
 func minNumberOfHours(initialEnergy int, initialExperience int, energy []int, experience []int) int {
 	var hours int
 	for i := 0; i < len(energy); i++ {
@@ -32,3 +33,4 @@ func minNumberOfHours(initialEnergy int, initialExperience int, energy []int, ex
 	}
 	return hours
 }
+*/

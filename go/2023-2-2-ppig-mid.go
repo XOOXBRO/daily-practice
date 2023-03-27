@@ -25,6 +25,7 @@ eg:
 See https://leetcode.cn/problems/shortest-path-with-alternating-colors/ for more details
 */
 
+/*
 func shortestAlternatingPaths(n int, redEdges, blueEdges [][]int) []int {
 	type pair struct{ x, color int }
 	// record 用于构造树
@@ -61,6 +62,8 @@ func shortestAlternatingPaths(n int, redEdges, blueEdges [][]int) []int {
 
 	return answer
 }
+
+*/
 
 /*
 n = 3
