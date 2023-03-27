@@ -26,4 +26,6 @@ func TestDaily(t *testing.T) {
 
 	a8 := countAsterisks("l|*e*et|c**o|*de|")
 	t.Log(a8)
+
+	t.Log("test...")
 }
