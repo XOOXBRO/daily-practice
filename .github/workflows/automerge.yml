@@ -26,3 +26,4 @@ jobs:
           MERGE_REMOVE_LABELS: "Stale"
           MERGE_METHOD: "squash"
           MERGE_DELETE_BRANCH: "true"
+          MERGE_FILTER_AUTHOR: "Ignorant-lxf"
